@@ -67,9 +67,9 @@ export default function StoryPage() {
                     />
                   </div>
                 </div>
-                <div className="lg:order-2 text-right">
-                  <div className="relative pr-8 border-r-2 border-brand-red">
-                    <h3 className="text-sm font-black tracking-widest text-brand-red uppercase mb-4 justify-end flex items-center gap-2">
+                <div className="lg:order-2 text-left lg:text-right">
+                  <div className="relative lg:pr-8 border-l-2 lg:border-l-0 lg:border-r-2 border-brand-red pl-8 lg:pl-0">
+                    <h3 className="text-sm font-black tracking-widest text-brand-red uppercase mb-4 lg:justify-end flex items-center gap-2">
                       2006 — Expanding Repertoire
                     </h3>
                     <p className="text-gray-600 text-lg leading-relaxed font-medium">
@@ -82,11 +82,11 @@ export default function StoryPage() {
               {/* 2008 — Scaling Up */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
-                  <div className="relative pl-8 border-l-2 border-brand-red bg-gray-50 p-10">
+                  <div className="relative pl-8 border-l-2 border-brand-red bg-gray-50 p-6 md:p-10">
                     <h3 className="text-sm font-black tracking-widest text-brand-red uppercase mb-4 flex items-center gap-2">
                       2008 — Scaling Up
                     </h3>
-                    <p className="text-2xl font-black uppercase tracking-tight italic text-brand-dark">
+                    <p className="text-xl md:text-2xl font-black uppercase tracking-tight italic text-brand-dark">
                       The Paradise Masonry team completed our largest project to date—a concrete floor for a 170,000-sq. ft. building.
                     </p>
                   </div>
@@ -117,9 +117,9 @@ export default function StoryPage() {
                     />
                   </div>
                 </div>
-                <div className="lg:order-2 text-right">
-                  <div className="relative pr-8 border-r-2 border-brand-red">
-                    <h3 className="text-sm font-black tracking-widest text-brand-red uppercase mb-4 justify-end flex items-center gap-2">
+                <div className="lg:order-2 text-left lg:text-right">
+                  <div className="relative lg:pr-8 border-l-2 lg:border-l-0 lg:border-r-2 border-brand-red pl-8 lg:pl-0">
+                    <h3 className="text-sm font-black tracking-widest text-brand-red uppercase mb-4 lg:justify-end flex items-center gap-2">
                       2012 — Administrative Growth
                     </h3>
                     <p className="text-gray-600 text-lg leading-relaxed font-medium">
